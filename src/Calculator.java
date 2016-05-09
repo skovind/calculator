@@ -1,5 +1,5 @@
 public class Calculator {
-	    private static int result;    //静态变量，用于存储运行结果
+	    private static int result;    //
 	    public void add(int n)
 	    {
 	        result=result+n;
@@ -7,12 +7,12 @@ public class Calculator {
 	    
 	    public void substract(int n)
 	    {
-	        result=result-n;        //Bug：正确的应该是result=result-n;
+	        result=result-n;        //Bug
 	    }
 	    
 	    public void multiply(int n)
 	    {
-	        //此方法尚未写好
+	        //
 	    }
 	    
 	    public void divide(int n)
@@ -27,12 +27,12 @@ public class Calculator {
 	    
 	    public void squareRoot(int n)
 	    {
-	        for(;;);    //Bug:死循环
+	        for(;;);    //Bug
 	    }
 	    
 	    public void clear()
 	    {
-	        result=0;  //将结果清零
+	        result=0;  //
 	    }
 	    
 	    public int getResult()

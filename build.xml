@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
-<project name="project" >
+<project name="project" default="test" basedir="." >
 
     <property name="run.classpath" value="bin"></property>
 
